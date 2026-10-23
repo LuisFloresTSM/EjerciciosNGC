@@ -1,0 +1,98 @@
+/* Fondo oscuro para la pagina */
+body {
+  background-color: #0b0d14;
+  color: #ffffff;
+  font-family: sans-serif;
+  margin: 30px;
+}
+
+/* Titulo principal */
+h1 {
+  font-size: 28px;
+  color: #bf5af2;
+  margin: 10px;
+}
+
+/* Texto de parrafo */
+p {
+  font-size: 16px;
+  color: #aaaaaa;
+  margin: 10px;
+}
+
+/* ========================================================
+   CONTENEDOR CSS GRID: VITRINA DE CARTAS
+   ======================================================== */
+.vitrina {
+  /* 1. Activa la cuadricula bidimensional */
+  display: grid;
+
+  /* 2. Declaracion explicita de 3 columnas de 180px cada una */
+  grid-template-columns: 180px 180px 180px;
+
+  /* 3. Declaracion explicita de 2 filas de 130px cada una */
+  grid-template-rows: 130px 130px;
+
+  /* 4. Separacion uniforme entre cartas */
+  gap: 15px;
+
+  /* Tamano, bordes y estilo Dark Mode */
+  width: 570px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #121212;
+  border: 2px solid #bf5af2;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #bf5af2;
+}
+
+/* Estilo general para cada una de las 6 cartas */
+.carta {
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: sans-serif;
+  box-shadow: 0 0 10px #000000;
+}
+
+/* Titulo interno de la carta */
+.titulo-carta {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 5px;
+}
+
+/* Colores de fondo distintos para cada carta */
+.carta-fuego {
+  background-color: #ff0055;
+  box-shadow: 0 0 15px #ff0055;
+}
+
+.carta-hielo {
+  background-color: #00f0ff;
+  color: #000000;
+  box-shadow: 0 0 15px #00f0ff;
+}
+
+.carta-rayo {
+  background-color: #ffcc00;
+  color: #000000;
+  box-shadow: 0 0 15px #ffcc00;
+}
+
+.carta-veneno {
+  background-color: #00ff66;
+  color: #000000;
+  box-shadow: 0 0 15px #00ff66;
+}
+
+.carta-luz {
+  background-color: #ff8800;
+  box-shadow: 0 0 15px #ff8800;
+}
+
+.carta-sombra {
+  background-color: #8a2be2;
+  box-shadow: 0 0 15px #8a2be2;
+}
