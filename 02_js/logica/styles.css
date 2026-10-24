@@ -1,0 +1,41 @@
+body {
+  background-color: #333333;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pantalla {
+  background-color: #111111;
+  width: 300px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  border: 4px solid #555;
+  font-family: 'Courier New', monospace;
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: #00ff00; /* Letras verdes tipo Matrix */
+}
+
+.teclado {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.boton {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 50%; /* Botones redondos */
+}
+
+.boton:active {
+  background-color: #888;
+}
