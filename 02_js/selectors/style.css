@@ -1,0 +1,10 @@
+.foco {
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      border-radius: 50%;
+      display: inline-block;
+      margin: 10px;
+      box-shadow: 0 0 20px yellow;
+      transition: all 0.3s; /* Para que el cambio sea suave */
+    }
