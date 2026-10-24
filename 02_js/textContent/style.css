@@ -1,0 +1,47 @@
+
+    body {
+      background-color: #1e1e24;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    /* El pergamino o libro mágico */
+    .pergamino {
+      background-color: #f4e4bc;
+      color: #333;
+      width: 400px;
+      margin: 20px auto;
+      padding: 40px;
+      border-radius: 10px;
+      font-family: 'Georgia', serif;
+      font-size: 24px;
+      border: 5px solid #8b5a2b;
+      box-shadow: 0 0 20px #8b5a2b;
+      min-height: 100px; /* Para que no se encoja si el texto es corto */
+      
+      /* Efecto de transición para que el cambio no sea brusco */
+      transition: all 0.5s; 
+    }
+
+    .botones {
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 15px 25px;
+      font-size: 16px;
+      margin: 0 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    #btn-magia { background-color: #bf5af2; color: white; }
+    #btn-magia:hover { background-color: #9d3dc9; }
+
+    #btn-borrar { background-color: #ff0055; color: white; }
+    #btn-borrar:hover { background-color: #cc0044; }
+  
