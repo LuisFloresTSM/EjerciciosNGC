@@ -30,7 +30,7 @@ function agregarDigito(digito) {
   }
 }
 
-// 4. Los Eventos (lo de Pablo) llamando a nuestra función
+// 4. Los Eventos llamando a nuestra función
 btn1.addEventListener("click", function() {
   agregarDigito("1");
 });
